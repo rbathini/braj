@@ -1,0 +1,69 @@
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\VideoLibrary.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\VideoLibrary.pdb
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\Antlr3.Runtime.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\EntityFramework.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\Microsoft.Web.Infrastructure.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\Newtonsoft.Json.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Net.Http.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Net.Http.Formatting.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Net.Http.WebRequest.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Http.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Http.WebHost.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Mvc.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Optimization.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Providers.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Razor.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.WebPages.Deployment.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.WebPages.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.WebPages.Razor.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\WebGrease.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\EntityFramework.xml
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\Newtonsoft.Json.xml
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Net.Http.xml
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Net.Http.Formatting.xml
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Net.Http.WebRequest.xml
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Http.xml
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Http.WebHost.xml
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Mvc.xml
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Razor.xml
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.WebPages.xml
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.WebPages.Deployment.xml
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.WebPages.Razor.xml
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.dll
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.pdb
+E:\My works\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\VideoLibrary.dll.config
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\VideoLibrary.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\VideoLibrary.pdb
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\Antlr3.Runtime.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\EntityFramework.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\Newtonsoft.Json.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Net.Http.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Net.Http.Formatting.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Net.Http.WebRequest.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Http.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Http.WebHost.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Mvc.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Optimization.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Providers.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Razor.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.WebPages.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.WebPages.Razor.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\WebGrease.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\EntityFramework.xml
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\Newtonsoft.Json.xml
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Net.Http.xml
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Net.Http.Formatting.xml
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Net.Http.WebRequest.xml
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Http.xml
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Http.WebHost.xml
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Mvc.xml
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.Razor.xml
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.WebPages.xml
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\bin\System.Web.WebPages.Razor.xml
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.dll
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.pdb
+C:\Users\Balakrishna\Projects\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.csprojResolveAssemblyReference.cache
