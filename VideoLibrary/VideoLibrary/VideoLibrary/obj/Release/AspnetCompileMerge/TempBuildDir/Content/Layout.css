@@ -1,0 +1,249 @@
+
+.tableHeader {
+    background-color: #ffffff;
+    height: 100px;
+    width: 100%;
+    border-top-style: solid;
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-top-color: #3366FF;
+    border-bottom-color: #B51900;
+}
+
+.latestnews {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #B51900;
+}
+
+.tableup {
+    top: 0%;
+    background-color: #ffffff;
+    left: 17%;
+    position: absolute;
+}
+
+.tdLogo {
+    vertical-align: top;
+}
+
+.tdHeader {
+    vertical-align: bottom;
+}
+
+.tdBorder {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.datatextBorder {
+    vertical-align: top;
+    border-left-width: 2;
+    border-right-width: 2;
+    border-right-color: #ffffff;
+    border-right-style: solid;
+    border-left-color: #ffffff;
+    border-left-style: solid;
+}
+
+
+.datatext {
+    vertical-align: top;
+    border-right-width: 1px;
+    border-right-color: #b51900;
+    border-right-style: solid;
+}
+
+.datatextl {
+    vertical-align: top;
+    border-left-width: 1px;
+    border-left-color: #b51900;
+    border-left-style: solid;
+}
+
+.datatablelr {
+    border-left-width: 1px;
+    border-left-color: #7171c6;
+    border-left-style: solid;
+}
+
+.design {
+    width: 100%;
+    background-color: #b50b1c;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B51900;
+}
+
+.implinks {
+    background-color: #b50b1c;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B51900;
+}
+
+.links {
+    border-color: #b51900;
+    border-style: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.menuBorder {
+    background-color: #b50b1c;
+    width: 100%;
+    font-size: 11px;
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.fontsub {
+    vertical-align: top;
+    font-size: 11px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.marquees {
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 2px;
+    border-bottom-color: #00bfff;
+}
+
+
+.menuborder a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menuborder a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menuborder a:active {
+    text-decoration: none;
+    color: #000808;
+}
+
+.menuborder a:hover {
+    text-decoration: none;
+    color: #000808;
+}
+
+.font2 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: #494949;
+    text-decoration: none;
+}
+
+
+.font3 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #494949;
+    text-decoration: none;
+}
+
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.font1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #1e1e1e;
+}
+
+/*---------------------------------------------------------for MENU */
+
+
+
+.style1 {
+    font-weight: bold;
+}
+
+td.menu {
+    background: #66cefa;
+    border: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+table.menu {
+    font-family: Times New Roman, Helvetica, sans-serif;
+    background: #0033ff;
+    font-size: 120%;
+    position: absolute;
+    visibility: hidden;
+}
+
+.copyright {
+    font-family: verdana, Helvetica, sans-serif;
+    font-size: 13px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #489605;
+}
+
+
+/* for library layout*/
+
+#search-results-block {
+    background-color: White;
+    padding-top: 25px;
+    text-align: center;
+}
+
+    #search-results-block a {
+        font-family: arial,sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #143D55;
+        text-decoration: none;
+    }
+
+    #search-results-block .videoTitle {
+        background-color: #dddddd;
+        width: 140px;
+        height: 35px;
+        display: block;
+        line-height: 8px;
+        overflow: hidden;
+    }
+
+    #search-results-block td {
+        width: 150px;
+        height: 140px;
+        display: inline-block;
+    }
+
+.ChannelBlock {
+    background-color: #dddddd;
+    display: inline-block;
+    border: 1px solid gray;
+    width: 990px;
+    margin-bottom: 25px;
+}
+
+#search-results-block td.FirstAndLastBlock {
+    background-color: Gray;
+    color: Orange;
+    width: 30px;
+    font-weight: bolder;
+    font-size: 27px;
+    text-align: center;
+}
+
+#search-results-block td.More {
+    color: Orange;
+    width: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top:10px;
+}

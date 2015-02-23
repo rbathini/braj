@@ -1,0 +1,51 @@
+
+
+.urbangreymenu{
+width: 185;
+ /*width of menu*/
+}
+
+.urbangreymenu .headerbar{
+font: bold 12px Verdana;
+color: white;
+background:#606060 url(media/arrowstop.gif) no-repeat 8px 6px; /
+margin-bottom: 0;
+text-transform: uppercase;
+padding: 7px 0 7px 31px;
+}
+
+.urbangreymenu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 0;
+}
+
+.urbangreymenu ul li{
+padding-bottom: 2px;
+}
+
+.urbangreymenu ul li a{
+font: normal 11px  Verdana;
+color:#ffffff;
+background: #025A2A;
+display: block;
+padding: 5px 0;
+line-height: 15px;
+padding-left: 8px;
+text-decoration: none;
+}
+
+.urbangreymenu ul li a:visited{
+color: #ffffff ;
+}
+
+.urbangreymenu ul li a:hover{ 
+color: black;
+background:#17673b;
+}
+
+
+
+
+

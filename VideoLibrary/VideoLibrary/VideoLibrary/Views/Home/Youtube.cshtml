@@ -1,0 +1,412 @@
+﻿<html>
+
+<head>
+    <title>Telugu  online video library
+    </title>
+    <script src="~/Scripts/Youtube/jquery-1.6.2.min.js"></script>
+    <script src="~/Scripts/Youtube/Main_Youtube.js"></script>
+    <style type="text/css">
+        #search-results-block div {
+            background-color: white;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="search-results-block">
+
+        @*news*@
+        <div id="tv9"></div>
+        <div id="tv5"></div>
+        <div id="ntv"></div>
+        <div id="abntv"></div>
+        <div id="expresstv"></div>
+        <div id="6tv"></div>
+        <div id="tNews"></div>
+        <div id="CVRNewsOfficial"></div>
+        <div id="TNNTelangana"></div>
+        <div id="v6NewsTelugu"></div>
+
+        <div id="tv5money"></div>
+
+        @*tv channels*@
+        <div id="maatv"></div>
+        <div id="zeetv"></div>
+        <div id="etv"></div>
+
+        @*comedy*@
+        <div id="maaComedy"></div>
+        <div id="shalimarComedy"></div>
+
+        <div id="maaMusic"></div>
+
+        <div id="maaMovies"></div>
+        <div id="maaJuniors"></div>
+        <div id="maaSerials"></div>
+        <div id="maaReality"></div>
+        <div id="maaVooriVanta"></div>
+        <div id="maaGameShows"></div>
+        <div id="maaEvents"></div>
+        <div id="maaGold"></div>
+        <div id="maaCookery"></div>
+        <div id="mangoMobiletv"></div>
+        
+
+
+        @*music*@
+        <div id="mangoMusic"></div>
+        <div id="adityaMusic"></div>
+
+        <div id="mangoClassics"></div>
+        <div id="mangoNews"></div>
+        <div id="artAndArtistes"></div>
+
+
+        @*short films*@
+        <div id="khelpediaShortFilm"></div>
+        <div id="runwayReelShortFilm"></div>
+
+
+        <div id="recipe"></div>
+
+        <div id="teluguComedyCentral"></div>
+
+        @*devotional*@
+        <div id="bhakti"></div>
+        <div id="bhakthiTvOrg"></div>
+        <div id="musicOnKeerthana"></div>
+
+        @*hyderabad*@
+        <div id="hyderabadVideos"></div>
+        <div id="hyderabadiMovie"></div>
+
+        @*movie productions*@
+        <div id="lakshmiNarsimhaProductions"></div>
+        <div id="shemarooTeluguChannel"></div>
+        <div id="SVCineChitraProductions"></div>
+        <div id="vyjayanthiProductions"></div>
+
+        @*entertainment*@
+        <div id="rkMedia"></div>
+        <div id="shalimarAction"></div>
+        <div id="tfnLoveShots"></div>
+        <div id="mangoVideos"></div>
+        <div id="theSantoshVideos"></div>
+        <div id="teluguFilmNagar"></div>
+
+
+        <div id="swankupBeauty"></div>
+
+
+
+
+        <div id="tv1"></div>
+        <div id="Serials"></div>
+
+        <div id="vanithaTvChannel"></div>
+
+        @*video songs*@
+        <div id="shalimarVideoSongs"></div>
+        <div id="shalimarSongsVideoSongs"></div>
+        <div id="adityaVideoSongs"></div>
+
+
+    </div>
+</body>
+
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        //news
+        SearchYouTube('tv9telugu', 'tv9');
+        SearchYouTube('TV5newschannel', 'tv5');
+        SearchYouTube('Tv5money', 'tv5money');
+        SearchYouTube('NTVNewsChannel', 'ntv');
+        SearchYouTube('abntelugutv', 'abntv');
+        SearchYouTube('expresstv', 'expresstv');
+        SearchYouTube('mangonews', 'mangoNews');
+        SearchYouTube('TV1AP', 'tv1');
+        SearchYouTube('6tv', '6tv');
+        SearchYouTube('TNews', 'tNews');
+        SearchYouTube('CVRNewsOfficial', 'CVRNewsOfficial');
+        SearchYouTube('TNNTelangana', 'TNNTelangana');
+        SearchYouTube('V6NewsTelugu', 'v6NewsTelugu');
+
+
+        //tv channels
+        SearchYouTube('maatv', 'maatv');
+        SearchYouTube('zeetvtelugu', 'zeetv');
+        SearchYouTube('etv2india', 'etv');
+
+        //comedy
+        SearchYouTube('TeluguComedyCentral', 'teluguComedyCentral');
+        SearchYouTube('maacomedy', 'maaComedy');
+        SearchYouTube('ShalimarComedy', 'shalimarComedy');
+
+        //music
+        SearchYouTube('maamusic', 'maaMusic');
+        SearchYouTube('mangomusic', 'mangoMusic');
+        SearchYouTube('adityamusic', 'adityaMusic');
+
+        //classic video programm
+        SearchYouTube('ArtAndArtistes', 'artAndArtistes');
+
+        //movies
+        SearchYouTube('maamoviez', 'maaMovies');
+
+        //kids
+        SearchYouTube('maajuniors', 'maaJuniors');
+
+        //serials
+        SearchYouTube('maaserials', 'maaSerials');
+        SearchYouTube('TeluguSerials', 'Serials');
+
+
+        //reality 
+        SearchYouTube('maareality', 'maaReality');
+        SearchYouTube('maagameshows', 'maaGameShows');
+
+        //cooking
+        SearchYouTube('maavoorivanta', 'maaVooriVanta');
+        SearchYouTube('maacookery', 'maaCookery');
+        SearchYouTube('recipe', 'recipe');
+
+
+        //events
+        SearchYouTube('maaevents', 'maaEvents');
+
+        SearchYouTube('maagold', 'maaGold');
+
+
+        //entertainment
+        SearchYouTube('telugufilmnagar', 'teluguFilmNagar');
+        SearchYouTube('mangoVideos', 'mangoVideos');
+        SearchYouTube('thesantoshvideos', 'theSantoshVideos');
+        SearchYouTube('TFNloveshots', 'tfnLoveShots');
+        SearchYouTube('rkmedia', 'rkMedia');
+        SearchYouTube('ShalimarAction', 'shalimarAction');
+
+
+        //video songs
+        SearchYouTube('shalimarcinema', 'shalimarVideoSongs');
+        SearchYouTube('ShalimarSongs', 'shalimarSongsVideoSongs');
+        SearchYouTube('adityacinema', 'adityaVideoSongs');
+
+        //old classics
+        SearchYouTube('Mangoclassics', 'mangoClassics');
+
+        //short films   
+        SearchYouTube('khelpedia', 'khelpediaShortFilm');
+        SearchYouTube('RunwayReel', 'runwayReelShortFilm');
+
+        //bhakti
+        SearchYouTube('Bhakti', 'bhakti');
+        SearchYouTube('Musiconkeerthana', 'musicOnKeerthana');
+        SearchYouTube('bhakthitvorg', 'bhakthiTvOrg');
+
+        //hyderabad
+        SearchYouTube('hyderabad', 'hyderabadVideos');
+        SearchYouTube('HyderabadiMovie', 'hyderabadiMovie');
+
+        //movie productions
+        SearchYouTube('LNP', 'lakshmiNarsimhaProductions');
+        SearchYouTube('shemarootelugu', 'shemarooTeluguChannel');
+        SearchYouTube('SVcinechitra', 'SVCineChitraProductions');
+        SearchYouTube('vyjayanthitv', 'vyjayanthiProductions');
+
+
+        //beauty
+        SearchYouTube('swankup', 'swankupBeauty');
+
+        // women
+        SearchYouTube('VanithaTvChannel', 'vanithaTvChannel');
+
+
+        //document.getElementById("tv9").innerHTML = htmlformat;
+        //document.getElementById("tv5news").innerHTML = htmlformat;// SearchYouTube('TV5newschannel');
+    });
+
+</script>
+
+
+<script type="text/javascript">
+
+    ////function SearchYouTube(channelName, divName) {
+    ////    var URL = 'https://gdata.youtube.com/feeds/api/videos?author=' + channelName + '&max-results=50&v=2&alt=jsonc&orderby=published';
+    ////    $.ajax({
+    ////        url: URL,
+    ////        dataType: 'jsonp',
+    ////        success: function (data) {
+    ////            var row = "<div style='background-color:lightblue'><center><span><b>" + divName.toUpperCase() + "</b></span></center></div>";
+    ////            row += "<table width='100%'>";
+    ////            row += "<tr>";
+    ////            //                        for (i = 0; i < data.data.items.length; i++) {
+    ////            for (i = 0; i < 6; i++) {
+    ////                //if (i % 5 == 0) {
+    ////                //    //row += "<div class='search_item'>";
+
+    ////                //}
+    ////                row += "<td vAlign='top' align='left'>";
+    ////                row += "<a href='#' ><img width='135px' height='80px' src=" + data.data.items[i].thumbnail["sqDefault"] + " /></a>";
+    ////                // row += "</td>";
+    ////                //   row += "<td vAlign='top' width='100%' align='left'>";
+    ////                row += "<br/><a href='#' >" + data.data.items[i].title + "</a><br/>";
+    ////                //row += "<br/><span style='font-size:12px; color:#555555'>by " + data.data.items[i].uploader + "</span>";
+    ////                //row += "<span style='font-size:12px' color:#666666>" + data.data.items[i].viewCount + " views" + "<span>";
+    ////                row += "</td>";
+
+    ////                //if (i % 5 == 0) {
+    ////                //    row += "</tr>";
+    ////                //    row += "</table>";
+    ////                //    row
+    ////                // //   row += "</div>";
+    ////                //}
+    ////            }
+    ////            row += "</tr>";
+    ////            row += "</table>";
+    ////            document.getElementById(divName).innerHTML = row;
+    ////        },
+    ////        error: function () {
+    ////            alert("Error loading youtube video results");
+    ////        }
+    ////    });
+    ////    return false;
+    ////}
+    //$(document).ready(function () {
+
+    //    //news
+    //    SearchYouTube('tv9telugu', 'tv9');
+    //    SearchYouTube('TV5newschannel', 'tv5');
+    //    SearchYouTube('Tv5money', 'tv5money');
+    //    SearchYouTube('NTVNewsChannel', 'ntv');
+    //    SearchYouTube('abntelugutv', 'abntv');
+    //    SearchYouTube('expresstv', 'expresstv');
+    //    SearchYouTube('mangonews', 'mangoNews');
+    //    SearchYouTube('TV1AP', 'tv1');
+
+    //    //tv channels
+    //    SearchYouTube('maatv', 'maatv');        
+    //    SearchYouTube('zeetvtelugu', 'zeetv');
+    //    SearchYouTube('etv2india', 'etv');
+
+    //    //comedy
+    //    SearchYouTube('TeluguComedyCentral', 'teluguComedyCentral');
+    //    SearchYouTube('maacomedy', 'maaComedy');
+
+    //    //music
+    //    SearchYouTube('maamusic', 'maaMusic');
+    //    SearchYouTube('mangomusic', 'mangoMusic');
+    //    SearchYouTube('ArtAndArtistes', 'artAndArtistes');
+
+    //    //movies
+    //    SearchYouTube('maamoviez', 'maaMovies');
+
+    //    //kids
+    //    SearchYouTube('maajuniors', 'maaJuniors');
+
+    //    //serials
+    //    SearchYouTube('maaserials', 'maaSerials');
+    //    SearchYouTube('TeluguSerials', 'Serials');
+
+
+    //    //reality 
+    //    SearchYouTube('maareality', 'maaReality');
+    //    SearchYouTube('maagameshows', 'maaGameShows');
+
+    //    //cooking
+    //    SearchYouTube('maavoorivanta', 'maaVooriVanta');
+    //    SearchYouTube('maacookery', 'maaCookery');
+    //    SearchYouTube('recipe', 'recipe');
+
+
+    //    //events
+    //    SearchYouTube('maaevents', 'maaEvents');
+
+    //    SearchYouTube('maagold', 'maaGold');
+
+
+    //    //entertainment
+    //    SearchYouTube('telugufilmnagar', 'teluguFilmNagar');
+    //    SearchYouTube('mangoVideos', 'mangoVideos');
+    //    SearchYouTube('thesantoshvideos', 'theSantoshVideos');
+    //    SearchYouTube('TFNloveshots', 'tfnLoveShots');
+    //    SearchYouTube('rkmedia', 'rkMedia');
+
+
+    //    //old classics
+    //    SearchYouTube('Mangoclassics', 'mangoClassics');
+
+    //    //short films   
+    //    SearchYouTube('khelpedia', 'khelpediaShortFilm');
+
+    //    //bhakti
+    //    SearchYouTube('Bhakti', 'bhakti');
+    //    SearchYouTube('Musiconkeerthana', 'musicOnKeerthana');
+
+    //    //hyderabad
+    //    SearchYouTube('hyderabad', 'hyderabadVideos');
+
+
+    //    //movie productions
+    //    SearchYouTube('LNP', 'lakshmiNarsimhaProductions');        
+    //    SearchYouTube('shemarootelugu', 'shemarooTeluguChannel');
+    //    SearchYouTube('SVcinechitra', 'SVCineChitraProductions');
+    //    SearchYouTube('vyjayanthitv', 'vyjayanthiProductions');
+
+
+    //    //beauty
+    //    SearchYouTube('swankup', 'swankupBeauty');
+
+
+
+
+    //    //document.getElementById("tv9").innerHTML = htmlformat;
+    //    //document.getElementById("tv5news").innerHTML = htmlformat;// SearchYouTube('TV5newschannel');
+    //});
+
+    ////document.getElementById("tv5news").innerHTML = SearchYouTube('TV5newschannel');
+    ////document.getElementById("tv9").innerHTML = SearchYouTube('tv9telugu');
+    ////document.getElementById("tv9").innerHTML = SearchYouTube('tv9telugu');
+
+    ////url: 'http://gdata.youtube.com/feeds/mobile/videos?alt=json-in-script&q=' + query,
+    //// url: 'http://gdata.youtube.com/feeds/api/videos?alt=json-in-script&q=' + query,
+    //// url: 'https://gdata.youtube.com/feeds/api/channels?alt=json-in-script&v=2&uploader=partner&q=L7_hit0JIyM', channnesl
+    ////                    url: 'https://gdata.youtube.com/feeds/api/videos?q=tv9 telugu news today&max-results=20&v=2&alt=jsonc&orderby=published',
+    ////function SearchYouTube(query) {
+    ////    $.ajax({
+    ////        //url: 'http://gdata.youtube.com/feeds/mobile/videos?alt=json-in-script&q=' + query,
+    ////        // url: 'http://gdata.youtube.com/feeds/api/videos?alt=json-in-script&q=' + query,
+    ////        // url: 'https://gdata.youtube.com/feeds/api/channels?alt=json-in-script&v=2&uploader=partner&q=L7_hit0JIyM', channnesl
+    ////        url:'https://gdata.youtube.com/feeds/api/videos?q=ThankQchef&max-results=20&v=2&alt=jsonc',
+    ////        dataType: 'jsonp',
+    ////        success: function (data) {
+    ////            debugger;
+    ////            var row = "";
+    ////            for (i = 0; i < data.feed.entry.length; i++) {
+    ////                row += "<div class='search_item'>";
+    ////                row += "<table width='100%'>";
+    ////                row += "<tr>";
+    ////                row += "<td vAlign='top' align='left'>";
+    ////                row += "<a href='#' ><img width='120px' height='80px' src=" + data.feed.entry[i].media$group.media$thumbnail[0].url + " /></a>";
+    ////                row += "</td>";
+    ////                row += "<td vAlign='top' width='100%' align='left'>";
+    ////                row += "<a href='#' ><b>" + data.feed.entry[i].media$group.media$title.$t + "</b></a><br/>";
+    ////                row += "<span style='font-size:12px; color:#555555'>by " + data.feed.entry[i].author[0].name.$t + "</span><br/>";
+    ////                row += "<span style='font-size:12px' color:#666666>" + data.feed.entry[i].yt$statistics.viewCount + " views" + "<span><br/>";
+    ////                row += "</td>";
+    ////                row += "</tr>";
+    ////                row += "</table>";
+    ////                row += "</div>";
+    ////            }
+    ////            document.getElementById("search-results-block").innerHTML = row;
+    ////        },
+    ////        error: function () {
+    ////            alert("Error loading youtube video results");
+    ////        }
+    ////    });
+    ////    return false;
+    ////}
+</script>
+</html>

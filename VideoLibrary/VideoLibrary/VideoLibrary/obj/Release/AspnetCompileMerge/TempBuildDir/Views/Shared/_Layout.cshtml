@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Library</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/LayoutCss")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/GetVideos")
+        @*<link href="~/Content/DropdownMenu.css" rel="stylesheet" />*@
+</head>
+<body style="background-color: #F5f5f5">
+    <table cellspacing="0" cellpadding="0" width="100%">
+        <tr>
+            <td class="tdBorder">
+                <table align="center" class="tableHeader">
+                    <tr>
+                        <td align="center">
+
+                            <img class="banner" src="~/Images/Banners/banner3.png" />
+                        </td>
+                        <td></td>
+                        <td class="tdHeader" align="right"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" class="design">
+             
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="../Home/News">Home</a></li>
+                                    <li><a href="../Home/News">News</a></li> 
+                                    <li><a href="../Home/Comedy">Comedy</a></li>                                   
+                                    <li><a href="../Home/ShortFilms">Short Films</a></li>
+                                    <li><a href="../Home/Music">Music</a> </li>
+                                    <li><a href="../Home/Movies">Movies</a></li>
+                                    <li><a href="../Home/Devotional">Devotional</a></li>
+                                    <li><a href="../Home/Entertainment">Entertainment</a> </li>
+                                    <li><a href="../Home/VideoSongs">Video Songs</a></li>
+                                    <li><a href="#">ContactUs</a></li>
+                                </ul>
+                            </div>	
+
+
+
+
+
+                            @*<font color="#ffffff">
+                                <a href="../Home/News">Home</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="../Home/News">News</a> &nbsp;&nbsp;| &nbsp;&nbsp; <a href="../Home/Comedy">Comedy</a>
+                                &nbsp;&nbsp;| &nbsp;&nbsp; <a href="../Home/ShortFilms">Short Films</a> &nbsp;&nbsp;|
+                                &nbsp;&nbsp; <a href="../Home/Music">Music</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="../Home/Movies">
+                                    Movies
+                                </a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="../Home/Devotional">Devotional</a>
+                                &nbsp;&nbsp;|&nbsp;&nbsp; <a href="../Home/Entertainment">Entertainment</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                                <a href="../Home/VideoSongs">Video Songs</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="../Home/TVChannels">
+                                    TV
+                                    Channels
+                                </a>
+                            </font>*@                    
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <div id="videoPlayer">
+                    <iframe id="videoFrame" src="" width="600px" height="450px" allowfullscreen></iframe>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @RenderBody()
+            </td>
+        </tr>
+        <tr>
+            <td align="center" class="copyright" bgcolor="#3366cc" title="">
+                <font color="#ffffff">
+                    copyright &copy; &nbsp; <strong>Balakrishna .</strong> &nbsp;
+                    &nbsp;
+                </font>
+                <br />
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //hides the video player on the pageload
+            $('#videoPlayer').hide();
+
+            //$('.menu li').click(function () {
+            //    debugger;
+            //    $('li').removeClass('active');
+            //    $(this).addClass('active');
+            //});
+        });
+    </script>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

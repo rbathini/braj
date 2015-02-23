@@ -1,0 +1,27 @@
+﻿
+
+@Scripts.Render("~/bundles/jquery")
+<ol class="round">
+    <li class="one">
+        <h5>Getting Started</h5>
+
+        <input type="button" value="Youtube" id="btnYoutube"/>
+        <br />
+        <input type="button" value="Viemo" id="btnViemo" />
+        <br />
+
+
+        <input type="button" value="Buffer1" id="btnBuffer1" />
+        <br />
+        <input type="button" value="Buffer1" id="btnBuffer2" />
+        <br />
+    </li>
+</ol>
+<script type="text/javascript">
+    $( document ).ready(function() {
+        $('#btnYoutube').click(function () {
+            window.location = '/Home/Youtube';
+        });
+    });
+
+</script>
